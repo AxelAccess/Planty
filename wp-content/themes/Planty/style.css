@@ -3,7 +3,7 @@ Theme Name: Planty
 Theme URI: https://wordpress.org/themes/twentytwentythree
 Description: Twenty Twenty-Three-child is child theme.
 Author: Grimaud
-Template: twentytwentythree
+Template: oceanwp
 Requires at least: 6.1
 Tested up to: 6.3
 Requires PHP: 5.6
@@ -13,4 +13,178 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: Planty
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
+/******header***********/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    background-color:white;
+}
 
+
+.menu-navigation-container #menu-navigation{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+#logo-container a{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo{
+    display: block;
+    padding-left: 37px;
+    width: 191.61px;
+    height: 19px
+  
+}
+
+.menu-item-245 a:hover {
+    color: #000000;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 700;
+}
+.menu-item-244 a:hover {
+    background-color: #C02E44; 
+    color: #ffffff;
+}
+.menu-item-244 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DC9F96;
+    color: #ffffff;   
+    Width: 236px;
+    height: 80px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 116px;
+}
+
+
+
+
+
+
+.sfghfs{
+    color: #000000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+.page-id-8{
+    background-color: #ffffff;
+}
+.fond1{
+    border-bottom-right-radius:10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-width: 20%;
+    box-shadow: 0px 10px 0px 0px #E3D9D0;
+    
+}
+.blocgouts{
+    width: 50%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.gouts{
+    color: #D2776A;
+    text-align: center;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.wp-block-spacer{
+    text-decoration: none;
+}
+.blocgouts{
+  min-width: 30%;
+}
+.picsfruit{
+    height: 262px;
+}
+
+/*****bouton***/
+.single-post:not(.elementor-page) .entry-content a:not(.wp-block-button__link):not(.wp-block-file__button):hover, .page:not(.elementor-page):not(.woocommerce-page) .entry a:not(.wp-block-button__link):not(.wp-block-file__button):hover {
+    text-decoration: none;
+
+}
+.single-post:not(.elementor-page) .entry-content a:not(.wp-block-button__link):not(.wp-block-file__button), .page:not(.elementor-page):not(.woocommerce-page) .entry a:not(.wp-block-button__link):not(.wp-block-file__button){
+    color: #ffffff;
+    text-decoration: none;
+}
+.btqm {
+    background-color: #DC9F96;
+    color: #ffffff;   
+    Width: 236px;
+    padding: 9px 57px 9px 56px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+    text-decoration: none;
+}
+.btqm:hover{
+    background-color: #C02E44; 
+    color: #ffffff;
+    
+}
+
+/******footer***********/
+.menu-item-296{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    background-color:white;
+}
+
+
+
+
+/******p2***********/
+.flower{
+    margin-bottom: 100px;
+}
+
+/******p3***********/
+.form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+}
+
+/******p4commander***********/
+.page-id-13{
+    background-color: #3B8E46;
+}
+.titrep3{
+    font: Syne;
+    font-weight: 800;
+    Size: 38px;
+    line-height: 45.6px;
+    text-align: Center;
+    padding-top: 69px;
+}
