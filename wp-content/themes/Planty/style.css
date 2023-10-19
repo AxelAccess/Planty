@@ -13,7 +13,7 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: Planty
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
-/******header***********/
+/****************************Header****************************/
 header{
     display: flex;
     justify-content: space-between;
@@ -22,15 +22,14 @@ header{
     background-color:white;
 }
 
-
 .menu-navigation-container #menu-navigation{
     display: flex;
     align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
-
 }
+
 #logo-container a{
     height: 100%;
     display: flex;
@@ -42,7 +41,6 @@ header{
     padding-left: 37px;
     width: 191.61px;
     height: 19px
-  
 }
 
 .menu-item-245 a:hover {
@@ -64,45 +62,39 @@ header{
     Width: 236px;
     height: 80px;
 }
+/****************************/
 
-.nav{
+/****************************footer****************************/
+.menu-item-296{
     display: flex;
-    flex-direction: row;
-    justify-content: right;
-    padding-right: 116px;
+    justify-content: center;
+    font-weight: 700;
+    background-color:white;
 }
+/****************************/
 
-
-
-
-
-
-.sfghfs{
-    color: #000000;
-    text-align: center;
-    font-family: Syne;
-    font-size: 20px;
-    font-style: normal;
-    line-height: normal;
-}
-
-
+/****************************Page1****************************/
 .page-id-8{
     background-color: #ffffff;
 }
-.fond1{
+/*Block*/
+.energizeblock{
     border-bottom-right-radius:10%;
     border-bottom-left-radius: 10%;
     border-bottom-width: 20%;
-    box-shadow: 0px 10px 0px 0px #E3D9D0;
-    
+    box-shadow: 0px 10px 0px 0px #E3D9D0; 
 }
-.blocgouts{
-    width: 50%;
+.tastesblock{
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
 }
-.gouts{
+.fruitsblock{
+    width: 50%;
+}
+/**/
+
+/*Title*/
+.tastestitle{
     color: #D2776A;
     text-align: center;
     font-family: Syne;
@@ -112,29 +104,72 @@ header{
     line-height: normal;
     text-transform: uppercase;
 }
-.wp-block-spacer{
-    text-decoration: none;
+.fruitstitle{
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.blocgouts{
-  min-width: 30%;
+.threeptitle{
+    color: #3B8E46;
+    text-align: center;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
 }
-.picsfruit{
-    height: 262px;
+/**/
+
+/*Paragraph*/
+.firstparagraph{
+    color: #000000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+}
+.secondparagraph{
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -15px;
 }
 
-/*****bouton***/
+.pppparagraph{
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/**/
+
+/*TasteButton*/
 .single-post:not(.elementor-page) .entry-content a:not(.wp-block-button__link):not(.wp-block-file__button):hover, .page:not(.elementor-page):not(.woocommerce-page) .entry a:not(.wp-block-button__link):not(.wp-block-file__button):hover {
     text-decoration: none;
-
 }
 .single-post:not(.elementor-page) .entry-content a:not(.wp-block-button__link):not(.wp-block-file__button), .page:not(.elementor-page):not(.woocommerce-page) .entry a:not(.wp-block-button__link):not(.wp-block-file__button){
     color: #ffffff;
     text-decoration: none;
 }
-.btqm {
-    background-color: #DC9F96;
+
+.tastebutton {
+    display: flex;  
+    align-items: center;
+    background-color: #E0B9B4;
     color: #ffffff;   
-    Width: 236px;
+    Width: 198px;
     padding: 9px 57px 9px 56px;
     border-radius: 5px;
     text-align: center;
@@ -142,49 +177,114 @@ header{
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 37px;
+    height: 55px;
     text-decoration: none;
 }
-.btqm:hover{
+.tastebutton:hover{
     background-color: #C02E44; 
     color: #ffffff;
     
 }
+/**/
 
-/******footer***********/
-.menu-item-296{
+/*WhatTheyThink*/
+.blocppp{
     display: flex;
+    flex-direction: row;
+    width: 30%;
     justify-content: center;
-    font-weight: 700;
-    background-color:white;
+}
+.picsfatiha{
+   
+    
+}
+.picsppp{
+    
+    
 }
 
+/*****************/
 
-
-
-/******p2***********/
+/****************************p2****************************/
+.page-id-11{
+    background-color: #ffffff;
+}
 .flower{
-    margin-bottom: 100px;
+    margin-bottom: -80px;
+    padding-right: 1000px;    
 }
 
-/******p3***********/
+.flowerblock{
+    border-bottom-right-radius:30%;
+    border-bottom-left-radius: 30%;
+}
+.teamblock{
+    width:30%;
+    padding: 0 auto 0;
+    
+}
+.flowertitle{
+    text-align: center;
+    font-family: Syne;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+.flowerparagraph{
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.team{
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.teampics{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+/*contact*/
+#field_qh4icy_label, #field_29yf4d_label, #field_9jv0r1_label{
+    padding-left: 80px;
+}
+
+/****************************p3****************************/
 .form{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    
+    width: 30%;  
+}
+.flowerform{
+    margin-top: -200px;
+    padding-right: 400px;
+    z-index: -1;
+    position: relative;   
 }
 
-/******p4commander***********/
+/****************************p4commander****************************/
 .page-id-13{
     background-color: #3B8E46;
 }
-.titrep3{
-    font: Syne;
+.commandtitle{
+    text-align: center;
+    font-family: Syne;
+    font-size: 38px;
+    font-style: normal;
     font-weight: 800;
-    Size: 38px;
-    line-height: 45.6px;
-    text-align: Center;
-    padding-top: 69px;
+    line-height: normal;
+    text-transform: uppercase;
 }
