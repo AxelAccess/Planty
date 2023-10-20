@@ -73,7 +73,7 @@ header{
 }
 /****************************/
 
-/****************************Page1****************************/
+/****************************HomePage****************************/
 .page-id-8{
     background-color: #ffffff;
 }
@@ -261,7 +261,10 @@ header{
     padding-left: 80px;
 }
 
-/****************************p3****************************/
+#field_qh4icy_label, #field_29yf4d_label, #field_9jv0r1_label{
+    color: black;
+}
+
 .form{
     display: block;
     margin-left: auto;
@@ -275,7 +278,7 @@ header{
     position: relative;   
 }
 
-/****************************p4commander****************************/
+/****************************p3commander****************************/
 .page-id-13{
     background-color: #3B8E46;
 }
@@ -287,4 +290,68 @@ header{
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
+}
+.yourorder{
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.frm_fields_container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 860px;
+}
+#field_gf4ib, #field_da4kr, #field_3m1do, #field_20drb, #field_jucfn, #field_jgce4{
+    width: 383px;
+    display: flex; 
+    align-items: right;
+}
+
+
+.shipping, .info{
+    color: #FFF;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.shipping{
+    padding-left: 15px;
+}
+.info{
+    padding-left: 305px;
+}
+
+button[type=submit]{
+    text-transform: capitalize;
+}
+
+.fruitsorderblock{
+    margin-left: auto;
+    margin-right: auto;
+    width: 860px;
+    
+    
+}
+.fruitspics{
+    
+    height: 128px;
+}
+.fruitsordertitle{
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.wp-image-407{
+    margin-top: -500px;
+    margin-left: -50px;
+    
+
 }
