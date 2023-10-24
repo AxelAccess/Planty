@@ -89,8 +89,9 @@ header{
     border-bottom-right-radius: 10%;
 }
 .fruitsblock{
-    width: 50%;
+    width: 51%;   
 }
+
 /**/
 
 /*Title*/
@@ -164,26 +165,19 @@ header{
     text-decoration: none;
 }
 
-.tastebutton {
-    display: flex;  
-    align-items: center;
+.tastebutton a {
     background-color: #E0B9B4;
-    color: #ffffff;   
-    Width: 198px;
-    padding: 9px 57px 9px 56px;
-    border-radius: 5px;
+    padding: 18px 56px ;
     text-align: center;
     font-family: Syne;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    height: 55px;
     text-decoration: none;
 }
-.tastebutton:hover{
+.tastebutton a:hover {
     background-color: #C02E44; 
     color: #ffffff;
-    
 }
 /**/
 
@@ -218,11 +212,7 @@ header{
     border-bottom-right-radius:30%;
     border-bottom-left-radius: 30%;
 }
-.teamblock{
-    width:30%;
-    padding: 0 auto 0;
-    
-}
+
 .flowertitle{
     text-align: center;
     font-family: Syne;
@@ -255,6 +245,13 @@ header{
     display: flex;
     justify-items: center;
     align-items: center;
+    width:70%;
+}
+.flowerteam{
+    position: relative;
+    z-index: 1;
+    padding-right:px ;
+    margin-top: -200px;
 }
 /*contact*/
 #field_qh4icy_label, #field_29yf4d_label, #field_9jv0r1_label{
@@ -269,13 +266,14 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;  
+      
 }
 .flowerform{
-    margin-top: -200px;
-    padding-right: 400px;
+   
+    margin-top: -220px;
+    padding-right: 370px;
     z-index: -1;
-    position: relative;   
+    position: relative;  
 }
 
 /****************************p3commander****************************/
@@ -298,16 +296,18 @@ header{
     font-weight: 700;
     line-height: normal;
 }
-.frm_fields_container{
-    margin-left: auto;
+.page-id-13 .frm_fields_container {
+    margin-left: 415px;
     margin-right: auto;
-    width: 860px;
+    width: 900px;
+    
 }
 #field_gf4ib, #field_da4kr, #field_3m1do, #field_20drb, #field_jucfn, #field_jgce4{
-    width: 383px;
+    width: 400px;
     display: flex; 
     align-items: right;
 }
+
 
 
 .shipping, .info{
@@ -322,7 +322,7 @@ header{
     padding-left: 15px;
 }
 .info{
-    padding-left: 305px;
+    padding-left: 270px;
 }
 
 button[type=submit]{
@@ -349,9 +349,14 @@ button[type=submit]{
     font-weight: 800;
     line-height: normal;
 }
-.wp-image-407{
-    margin-top: -500px;
-    margin-left: -50px;
-    
 
+.page-id-13 .frm_submit{
+    padding-top: 10px;
+    padding-right: 25px;
 }
+.wp-image-443{
+    margin-top: -580px;
+}
+
+
+

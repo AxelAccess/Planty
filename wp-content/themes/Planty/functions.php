@@ -16,11 +16,30 @@ register_nav_menus( array(
 ) );
 
 
-function admin_tab() {
+/*function admin_tab() {
     if ( !is_admin() ) {
-        
+        add_menu_page( 'admin.php' );
     }
-    else {
+    else { 
         
     }
 }
+
+add_action('menu', 'admin_tab');
+
+
+
+function add_menu_page( $page_title, $menu_title, $capability, $menu_slug,) {
+	global $menu, $admin_page_hooks, $_registered_pages, $_parent_pages;
+    $menu_slug = admintrator_page ( $menu_slug );
+
+}
+
+
+function adminstrator_page(){
+	add_menu_page( 
+		__( 'admin', 'textdomain' ),
+		
+	); 
+}
+add_action( 'menu_navigation', 'wadminstrator_page' );*/
