@@ -360,3 +360,111 @@ button[type=submit]{
 
 
 
+
+
+.fruitsorder{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+
+}
+input[type=checkbox]{
+    display:none;
+    background-color: #E0B9B4; 
+    border-radius: 5px;  
+    padding-left:37px ;
+    padding-right:64px ;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+input[type=checkbox]:before{
+    content:"OK";
+    color: #FFF;
+    margin-right: -32px;
+    text-align: center;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}  
+input[type=checkbox]:hover{
+    background-color: #C02E44; 
+    color: #ffffff;
+} 
+form input[type=number], .fruitsinput{
+    background-color: #ffffff;   
+    width: 383px;
+    height: 56px !important;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+
+.formordertitle{
+    color: #FFF;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.labelform{
+    
+    color: #FFF;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.left-side-form{
+    padding-right: 44px;
+}
+
+.right-side-form{
+    border-left: solid #ffffff 2px;
+    padding-left: 44px;
+}
+
+.formorder{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+    border-top: solid #ffffff 2px ;
+    width: fit-content;
+    
+}
+
+form input[type=text], form input[type=number], form input[type=email]{
+    background-color: #ffffff;   
+    width: 383px;
+    height: 71px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+input[type=submit]{
+    
+    background-color: #E0B9B4;
+    padding: 18px 56px ;
+    text-align: center;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+input[type=submit]:hover{
+    background-color: #C02E44;
+}
+.alignbutton{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
