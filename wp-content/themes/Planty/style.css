@@ -42,11 +42,15 @@ header{
     width: 191.61px;
     height: 19px
 }
-
+.menu-item-245{
+    display: flex;
+    white-space: nowrap;
+    width: 134px;
+}
 .menu-item-245 a:hover {
     color: #000000;
     text-decoration: none;
-    align-items: center;
+    width: 114px;
     font-weight: 700;
 }
 .menu-item-244 a:hover {
@@ -280,16 +284,23 @@ header{
 .page-id-13{
     background-color: #3B8E46;
 }
-.commandtitle{
-    text-align: center;
+.commandtitle, h2.has-background{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 69px;
     font-family: Syne;
     font-size: 38px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
+    border-bottom: #fff solid 1px;
+    width: 860px;
 }
-.yourorder{
+.yourorder, p.has-background {
+    margin-left: 260px;
+    padding-top: 20px;
+    margin-bottom: 0px;
     font-family: Syne;
     font-size: 30px;
     font-style: normal;
@@ -365,8 +376,26 @@ button[type=submit]{
 .fruitsorder{
     display: flex;
     flex-direction: row;
-justify-content: center;
-
+    justify-content: center;
+    gap: 11px;
+    padding-left: 10px;
+}
+.fruitsorderpics{
+    margin-left: auto;
+    margin-right: auto;
+    width:855px;
+    padding-bottom: 15px;
+}
+.fruitsorderpicstext{
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 15px;
+    
 }
 input[type=checkbox]{
     display:none;
@@ -391,17 +420,32 @@ input[type=checkbox]:before{
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-}  
+} 
+input[type=checkbox]:checked:before {
+    content:"OK";
+    color: #FFF;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: -7px;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+} 
 input[type=checkbox]:hover{
     background-color: #C02E44; 
     color: #ffffff;
 } 
+
 form input[type=number], .fruitsinput{
     background-color: #ffffff;   
-    width: 383px;
+    width: 82px !important;
+    max-width: none;
     height: 56px !important;
     border-radius: 7px;
     font-size: 20px;
+    margin-bottom: 2px;
+    border-right: #DC9F96 solid 31px;
 }
 
 
@@ -427,8 +471,9 @@ form input[type=number], .fruitsinput{
 }
 
 .right-side-form{
-    border-left: solid #ffffff 2px;
+    border-left: solid #ffffff 1px;
     padding-left: 44px;
+    height: 390px;
 }
 
 .formorder{
@@ -436,7 +481,7 @@ form input[type=number], .fruitsinput{
     margin-left: auto;
     margin-right: auto;
     padding-top: 55px;
-    border-top: solid #ffffff 2px ;
+    border-top: solid #ffffff 1px ;
     width: fit-content;
     
 }
@@ -449,22 +494,25 @@ form input[type=text], form input[type=number], form input[type=email]{
     font-size: 20px;
 }
 
-input[type=submit]{
-    
+input[type=submit i]{
     background-color: #E0B9B4;
-    padding: 18px 56px ;
+    padding: 9px 56px 9px 45px ;
+    line-height: 37px;
     text-align: center;
     font-family: Syne;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
+    border-radius: 5px;
+    width: 198px;
 }
 input[type=submit]:hover{
     background-color: #C02E44;
 }
 .alignbutton{
     display: flex;
-    align-content: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 85px;
+    margin-top: 15px;
 }
