@@ -1,23 +1,15 @@
 /*
 Theme Name: Planty
-Theme URI: https://wordpress.org/themes/twentytwentythree
-Description: Twenty Twenty-Three-child is child theme.
+
+Description: Planty is child theme.
 Author: Grimaud
 Template: oceanwp
-Requires at least: 6.1
-Tested up to: 6.3
-Requires PHP: 5.6
-Version: 1.2
-License: GNU General Public License v2 or later
-License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-Text Domain: Planty
-Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
 /****************************Header****************************/
 header{
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-content: center;   
     margin: 0 auto;
     background-color:white;
 }
@@ -28,6 +20,10 @@ header{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.menu-navigation-container #menu-navigation li:nth-child(3){
+    order:2;
 }
 
 #logo-container a{
@@ -42,29 +38,29 @@ header{
     width: 191.61px;
     height: 19px
 }
-.menu-item-245{
+.menu-navigation-container #menu-navigation li{
     display: flex;
     white-space: nowrap;
-    width: 134px;
+    padding:30px;
 }
-.menu-item-245 a:hover {
+.menu-navigation-container #menu-navigation li a:hover{
     color: #000000;
-    text-decoration: none;
-    width: 114px;
-    font-weight: 700;
+    text-decoration: none;   
+    text-shadow: 1px 1px 1px black;
 }
 .menu-item-244 a:hover {
     background-color: #C02E44; 
     color: #ffffff;
 }
-.menu-item-244 a{
+ul .menu-item-244 a  {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 50px;
+    margin:-43px -31px;
     background-color: #DC9F96;
-    color: #ffffff;   
-    Width: 236px;
-    height: 80px;
+    color: #ffffff!important;   
+
 }
 /****************************/
 
@@ -95,6 +91,12 @@ header{
 .fruitsblock{
     width: 51%;   
 }
+.blocppp{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: center;
+}
 
 /**/
 
@@ -109,7 +111,7 @@ header{
     line-height: normal;
     text-transform: uppercase;
 }
-.fruitstitle{
+.FruitsTitle{
     color: #FFF;
     text-align: center;
     font-family: Syne;
@@ -118,9 +120,8 @@ header{
     font-weight: 800;
     line-height: normal;
 }
-.threeptitle{
-    color: #3B8E46;
-    text-align: center;
+.WhatTheyThinkTitle{
+    color: #3B8E46;   
     font-family: Syne;
     font-size: 30px;
     font-style: normal;
@@ -131,7 +132,7 @@ header{
 /**/
 
 /*Paragraph*/
-.firstparagraph{
+.EnergizeParagraph{
     color: #000000;
     text-align: center;
     font-family: Syne;
@@ -139,45 +140,23 @@ header{
     font-style: normal;
     line-height: normal;
 }
-.secondparagraph{
-    color: #000;
-    text-align: center;
-    font-family: Syne;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
+.TastParagraph{   
     line-height: normal;
     margin-top: -15px;
 }
 
-.pppparagraph{
+.WhatTheyThinkParagraph{
     color: #000;
-    font-family: Syne;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 /**/
 
 /*TasteButton*/
-.single-post:not(.elementor-page) .entry-content a:not(.wp-block-button__link):not(.wp-block-file__button):hover, .page:not(.elementor-page):not(.woocommerce-page) .entry a:not(.wp-block-button__link):not(.wp-block-file__button):hover {
-    text-decoration: none;
-}
-.single-post:not(.elementor-page) .entry-content a:not(.wp-block-button__link):not(.wp-block-file__button), .page:not(.elementor-page):not(.woocommerce-page) .entry a:not(.wp-block-button__link):not(.wp-block-file__button){
-    color: #ffffff;
-    text-decoration: none;
-}
-
 .tastebutton a {
     background-color: #E0B9B4;
-    padding: 18px 56px ;
-    text-align: center;
-    font-family: Syne;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    text-decoration: none;
+    padding: 18px 56px ;    
+    font-size: 15px;  
 }
 .tastebutton a:hover {
     background-color: #C02E44; 
@@ -185,49 +164,31 @@ header{
 }
 /**/
 
-/*WhatTheyThink*/
-.blocppp{
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-    justify-content: center;
-}
-.picsfatiha{
-   
-    
-}
-.picsppp{
-    
-    
-}
 
-/*****************/
-
-/****************************p2****************************/
+/****************************Meet us page****************************/
 .page-id-11{
     background-color: #ffffff;
 }
-.flower{
-    margin-bottom: -80px;
-    padding-right: 1000px;    
-}
 
-.flowerblock{
+/*Meet us page Block*/
+.MeetUsBlock{
     border-bottom-right-radius:30%;
     border-bottom-left-radius: 30%;
 }
-
-.flowertitle{
+.Flower{
+    margin-bottom: -80px;
+    padding-right: 1000px;    
+}
+.MeetUsTitle{
     text-align: center;
     font-family: Syne;
     font-size: 38px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
-.flowerparagraph{
+.MeetUsParagraph{
     color: #000;
     text-align: center;
     font-family: Syne;
@@ -236,6 +197,9 @@ header{
     font-weight: 400;
     line-height: normal;
 }
+/**/
+
+/*Team Block*/
 .team{
     color: #000;
     text-align: center;
@@ -245,46 +209,54 @@ header{
     font-weight: 700;
     line-height: normal;
 }
-.teampics{
+.TeamPics{
     display: flex;
     justify-items: center;
     align-items: center;
     width:70%;
 }
-.flowerteam{
+.FlowerTeam{
     position: relative;
-    z-index: 1;
-    padding-right:px ;
+    z-index: 1;   
     margin-top: -200px;
 }
-/*contact*/
+/**/
+
+/*Contact Block*/
+p.has-background{
+padding: 0;
+}
+.ContactUs{
+    display: flex;
+    padding-left: 560px!important;
+}
+/*Label*/
 #field_qh4icy_label, #field_29yf4d_label, #field_9jv0r1_label{
     padding-left: 80px;
-}
-
-#field_qh4icy_label, #field_29yf4d_label, #field_9jv0r1_label{
     color: black;
-}
+}/**/
 
 .form{
     display: block;
     margin-left: auto;
-    margin-right: auto;
-      
+    margin-right: auto;   
 }
-.flowerform{
-   
+.flowerform{  
     margin-top: -220px;
     padding-right: 370px;
     z-index: -1;
     position: relative;  
 }
+/**/
 
-/****************************p3commander****************************/
+
+/****************************Order Page****************************/
 .page-id-13{
+    
     background-color: #3B8E46;
 }
-.commandtitle, h2.has-background{
+/*Title*/
+.OrderTitle, h2.has-background{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 69px;
@@ -297,96 +269,38 @@ header{
     border-bottom: #fff solid 1px;
     width: 860px;
 }
-.yourorder, p.has-background {
-    margin-left: 260px;
+/**/
+
+/*Order Head Block Your Order*/
+.YourOrder, p.has-background {
+    display: flex;
+    justify-content: center;
+    padding-right:575px;
     padding-top: 20px;
-    margin-bottom: 0px;
+    padding-bottom: 20px;
     font-family: Syne;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.page-id-13 .frm_fields_container {
-    margin-left: 415px;
-    margin-right: auto;
-    width: 900px;
-    
-}
-#field_gf4ib, #field_da4kr, #field_3m1do, #field_20drb, #field_jucfn, #field_jgce4{
-    width: 400px;
-    display: flex; 
-    align-items: right;
-}
 
-
-
-.shipping, .info{
-    color: #FFF;
-    font-family: Syne;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.shipping{
-    padding-left: 15px;
-}
-.info{
-    padding-left: 270px;
-}
-
-button[type=submit]{
-    text-transform: capitalize;
-}
-
-.fruitsorderblock{
-    margin-left: auto;
-    margin-right: auto;
-    width: 860px;
-    
-    
-}
-.fruitspics{
-    
-    height: 128px;
-}
-.fruitsordertitle{
-    color: #FFF;
-    text-align: center;
-    font-family: Syne;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.page-id-13 .frm_submit{
-    padding-top: 10px;
-    padding-right: 25px;
-}
-.wp-image-443{
-    margin-top: -580px;
-}
-
-
-
-
-
-.fruitsorder{
+.FruitsOrderForm{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 11px;
     padding-left: 10px;
 }
-.fruitsorderpics{
+
+.FruitsOrderPics{
     margin-left: auto;
     margin-right: auto;
-    width:855px;
+    width: 192.533px;
+    height: 128.355px;
     padding-bottom: 15px;
 }
-.fruitsorderpicstext{
+.FruitsOrderPicsText1L {
     color: #FFF;
     text-align: center;
     font-family: Syne;
@@ -394,8 +308,44 @@ button[type=submit]{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    padding-top: 15px;
+    margin-top: -100px;
+    padding-right: 15px;
+    padding-bottom: 36px;
     
+}
+.FruitsOrderPicsText2L {
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: -120px;
+    padding-right: 15px;
+    padding-bottom: 32px;
+    
+}
+form input[type=number], .fruitsinput{
+    background-color: #ffffff;   
+    width: 82px !important;
+    max-width: none;
+    height: 56px !important;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-bottom: 2px;
+    border-right: #DC9F96 solid 31px;
+}
+form input[type=number]:focus{
+    border-color: #DC9F96;
+    outline: 0;
+}
+.wpcf7-form-control .wpcf7-number .wpcf7-validates-as-number {
+    background-color: #C02E44;
+    padding-left: 20px;
+}
+.wpcf7-number::-webkit-inner-spin-button, ::-webkit-outer-spin-button{
+    -webkit-appearance: none;
 }
 input[type=checkbox]{
     display:none;
@@ -435,21 +385,55 @@ input[type=checkbox]:checked:before {
 input[type=checkbox]:hover{
     background-color: #C02E44; 
     color: #ffffff;
-} 
-
-form input[type=number], .fruitsinput{
-    background-color: #ffffff;   
-    width: 82px !important;
-    max-width: none;
-    height: 56px !important;
-    border-radius: 7px;
-    font-size: 20px;
-    margin-bottom: 2px;
-    border-right: #DC9F96 solid 31px;
 }
+ 
+.plus{
+    color: white;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 62px;
+    margin-top:-55px;
+    position: absolute;
+    z-index: 1;
+}
+.moins{
+
+    color: white;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 62px;
+    margin-top:-30px;
+    position: absolute;
+    z-index: 1;
+}
+.barre{
+    display: flex;
+    width: 31px;
+    height: 1px;
+    margin-top:-55px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 1;
+}
+/**/
 
 
-.formordertitle{
+/*Order Block Your Informations Shipping*/
+.FormOrder{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+    border-top: solid #ffffff 1px ;
+    width: fit-content;
+}
+.FormOrderTitle{
     color: #FFF;
     font-family: Syne;
     font-size: 30px;
@@ -457,33 +441,21 @@ form input[type=number], .fruitsinput{
     font-weight: 700;
     line-height: normal;
 }
-.labelform{
-    
+.left-side-form{
+    padding-right: 44px;
+}
+.right-side-form{
+    border-left: solid #ffffff 1px;
+    padding-left: 44px;
+    height: 390px;
+}
+.labelform{  
     color: #FFF;
     font-family: Syne;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-.left-side-form{
-    padding-right: 44px;
-}
-
-.right-side-form{
-    border-left: solid #ffffff 1px;
-    padding-left: 44px;
-    height: 390px;
-}
-
-.formorder{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 55px;
-    border-top: solid #ffffff 1px ;
-    width: fit-content;
-    
 }
 
 form input[type=text], form input[type=number], form input[type=email]{
@@ -493,7 +465,9 @@ form input[type=text], form input[type=number], form input[type=email]{
     border-radius: 7px;
     font-size: 20px;
 }
+/**/
 
+/*Order Button*/
 input[type=submit i]{
     background-color: #E0B9B4;
     padding: 9px 56px 9px 45px ;
@@ -510,9 +484,116 @@ input[type=submit i]{
 input[type=submit]:hover{
     background-color: #C02E44;
 }
+
 .alignbutton{
     display: flex;
     justify-content: center;
     padding-left: 85px;
     margin-top: 15px;
+}
+/**/
+
+
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1025px) {
+    /**************Header**************/
+    .logo{
+        height:11px;
+        width: 75px;
+        position: absolute;
+    }
+    /**/
+
+    /**************HomePage**************/ 
+    .EnergizeTitle {
+        
+        font-size: 28px!important;
+        font-style: normal;
+        font-weight: 800;
+    }
+    .FruitsTitle{
+        font-size: 25px!important;
+    }
+    .WhatTheyThinkTitle{
+        display: flex;
+        justify-content: center;
+    }
+    .WhatTheyThinkParagraph{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    /**/
+
+    /**************Meet us page**************/
+    .FlowerTeam{
+        padding-top: 20px;
+    }
+    .ContactUs{
+        font-size: 30px!important;
+        padding-left: 270px!important;
+    }
+    
+    
+    .OrderTitle{
+        width: auto!important;
+        font-size: 25px!important;
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;   
+    }
+    .YourOrder{
+        display: flex;
+        justify-content: center;
+        font-size: 25px!important;
+        margin-left: 0!important;
+        padding-right: 0!important;
+    }
+    .FruitsOrderForm{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        
+    }
+
+    .plus{
+        
+        margin-left: -38px;
+    }
+    .moins{
+        
+        margin-left: -38px;
+    }
+    .barre{
+        margin-left: 165px;
+    }
+
+    form input[type=number], .fruitsinput {
+        margin-left: 12px;
+    }
+    .FormOrder{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .left-side-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+    }
+    .right-side-form{ /*now bottomside*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        border-left: none;
+        border-top:solid #ffffff 1px
+
+    }
+    .alignbutton{
+        display: flex;
+        justify-content: center;
+    }
 }

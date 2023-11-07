@@ -1,10 +1,5 @@
 <?php
 
-add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles_parent', 10 );
-function theme_enqueue_styles_parent() {
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-    
-}
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles', 100 );
 function theme_enqueue_styles() {
     
@@ -43,3 +38,24 @@ function adminstrator_page(){
 	); 
 }
 add_action( 'menu_navigation', 'wadminstrator_page' );*/
+
+
+add_filter('wp_nav_menu_items', 'ButtonAdmin', 10, 2);
+
+function ButtonAdmin($items, $args){
+    if( ! is_user_admin($args->theme_location==="main")){
+         $items .= "<li><a href='/wp-admin/index.php'> admin </a></li>";
+         return $items;}
+         
+}
+/*function ButtonAdmin($items, $args){
+    if( !  is_user_logged_in()){
+        if($args->theme_location==="main"){
+        $items .= "<li><a href='/wp-admin/index.php'> admin </a></li>";}
+        
+        else{
+            return "rien";
+        } 
+    }
+    return $items;
+}*/
